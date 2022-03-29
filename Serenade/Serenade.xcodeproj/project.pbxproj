@@ -7,67 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DACF66E9256EEC27007CABC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACF66E8256EEC27007CABC5 /* AppDelegate.swift */; };
-		DACF66EB256EEC27007CABC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACF66EA256EEC27007CABC5 /* ContentView.swift */; };
-		DACF66ED256EEC28007CABC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACF66EC256EEC28007CABC5 /* Assets.xcassets */; };
-		DACF66F0256EEC28007CABC5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACF66EF256EEC28007CABC5 /* Preview Assets.xcassets */; };
-		DACF66F3256EEC28007CABC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACF66F1256EEC28007CABC5 /* Main.storyboard */; };
-		DACF66FF256EEC28007CABC5 /* SerenadeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACF66FE256EEC28007CABC5 /* SerenadeTests.swift */; };
-		DACF670A256EEC28007CABC5 /* SerenadeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACF6709256EEC28007CABC5 /* SerenadeUITests.swift */; };
-		DACF671E256EF1C2007CABC5 /* Spotify.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACF671D256EF1C2007CABC5 /* Spotify.swift */; };
+		DA7CFCC127F2912000BDF21D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7CFCC027F2912000BDF21D /* AppDelegate.swift */; };
+		DA7CFCC327F2912000BDF21D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7CFCC227F2912000BDF21D /* ContentView.swift */; };
+		DA7CFCC527F2912300BDF21D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA7CFCC427F2912300BDF21D /* Assets.xcassets */; };
+		DA7CFCC827F2912300BDF21D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA7CFCC727F2912300BDF21D /* Preview Assets.xcassets */; };
+		DA7CFCCB27F2912300BDF21D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA7CFCC927F2912300BDF21D /* Main.storyboard */; };
+		DA7CFCD727F2912300BDF21D /* SerenadeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7CFCD627F2912300BDF21D /* SerenadeTests.swift */; };
+		DA7CFCE227F2912300BDF21D /* SerenadeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7CFCE127F2912300BDF21D /* SerenadeUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DACF66FB256EEC28007CABC5 /* PBXContainerItemProxy */ = {
+		DA7CFCD327F2912300BDF21D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DACF66DD256EEC27007CABC5 /* Project object */;
+			containerPortal = DA7CFCB527F2912000BDF21D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DACF66E4256EEC27007CABC5;
+			remoteGlobalIDString = DA7CFCBC27F2912000BDF21D;
 			remoteInfo = Serenade;
 		};
-		DACF6706256EEC28007CABC5 /* PBXContainerItemProxy */ = {
+		DA7CFCDE27F2912300BDF21D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DACF66DD256EEC27007CABC5 /* Project object */;
+			containerPortal = DA7CFCB527F2912000BDF21D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DACF66E4256EEC27007CABC5;
+			remoteGlobalIDString = DA7CFCBC27F2912000BDF21D;
 			remoteInfo = Serenade;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DACF66E5256EEC27007CABC5 /* Serenade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Serenade.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DACF66E8256EEC27007CABC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DACF66EA256EEC27007CABC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DACF66EC256EEC28007CABC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DACF66EF256EEC28007CABC5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DACF66F2256EEC28007CABC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DACF66F4256EEC28007CABC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DACF66F5256EEC28007CABC5 /* Serenade.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Serenade.entitlements; sourceTree = "<group>"; };
-		DACF66FA256EEC28007CABC5 /* SerenadeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerenadeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DACF66FE256EEC28007CABC5 /* SerenadeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerenadeTests.swift; sourceTree = "<group>"; };
-		DACF6700256EEC28007CABC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DACF6705256EEC28007CABC5 /* SerenadeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerenadeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DACF6709256EEC28007CABC5 /* SerenadeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerenadeUITests.swift; sourceTree = "<group>"; };
-		DACF670B256EEC28007CABC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DACF671D256EF1C2007CABC5 /* Spotify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spotify.swift; sourceTree = "<group>"; };
+		DA7CFCBD27F2912000BDF21D /* Serenade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Serenade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA7CFCC027F2912000BDF21D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA7CFCC227F2912000BDF21D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DA7CFCC427F2912300BDF21D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA7CFCC727F2912300BDF21D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA7CFCCA27F2912300BDF21D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA7CFCCC27F2912300BDF21D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA7CFCCD27F2912300BDF21D /* Serenade.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Serenade.entitlements; sourceTree = "<group>"; };
+		DA7CFCD227F2912300BDF21D /* SerenadeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerenadeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA7CFCD627F2912300BDF21D /* SerenadeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerenadeTests.swift; sourceTree = "<group>"; };
+		DA7CFCD827F2912300BDF21D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA7CFCDD27F2912300BDF21D /* SerenadeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerenadeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA7CFCE127F2912300BDF21D /* SerenadeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerenadeUITests.swift; sourceTree = "<group>"; };
+		DA7CFCE327F2912300BDF21D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DACF66E2256EEC27007CABC5 /* Frameworks */ = {
+		DA7CFCBA27F2912000BDF21D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DACF66F7256EEC28007CABC5 /* Frameworks */ = {
+		DA7CFCCF27F2912300BDF21D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DACF6702256EEC28007CABC5 /* Frameworks */ = {
+		DA7CFCDA27F2912300BDF21D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,63 +75,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DACF66DC256EEC27007CABC5 = {
+		DA7CFCB427F2912000BDF21D = {
 			isa = PBXGroup;
 			children = (
-				DACF66E7256EEC27007CABC5 /* Serenade */,
-				DACF66FD256EEC28007CABC5 /* SerenadeTests */,
-				DACF6708256EEC28007CABC5 /* SerenadeUITests */,
-				DACF66E6256EEC27007CABC5 /* Products */,
+				DA7CFCBF27F2912000BDF21D /* Serenade */,
+				DA7CFCD527F2912300BDF21D /* SerenadeTests */,
+				DA7CFCE027F2912300BDF21D /* SerenadeUITests */,
+				DA7CFCBE27F2912000BDF21D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DACF66E6256EEC27007CABC5 /* Products */ = {
+		DA7CFCBE27F2912000BDF21D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DACF66E5256EEC27007CABC5 /* Serenade.app */,
-				DACF66FA256EEC28007CABC5 /* SerenadeTests.xctest */,
-				DACF6705256EEC28007CABC5 /* SerenadeUITests.xctest */,
+				DA7CFCBD27F2912000BDF21D /* Serenade.app */,
+				DA7CFCD227F2912300BDF21D /* SerenadeTests.xctest */,
+				DA7CFCDD27F2912300BDF21D /* SerenadeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DACF66E7256EEC27007CABC5 /* Serenade */ = {
+		DA7CFCBF27F2912000BDF21D /* Serenade */ = {
 			isa = PBXGroup;
 			children = (
-				DACF66E8256EEC27007CABC5 /* AppDelegate.swift */,
-				DACF66EA256EEC27007CABC5 /* ContentView.swift */,
-				DACF66EC256EEC28007CABC5 /* Assets.xcassets */,
-				DACF66F1256EEC28007CABC5 /* Main.storyboard */,
-				DACF66F4256EEC28007CABC5 /* Info.plist */,
-				DACF66F5256EEC28007CABC5 /* Serenade.entitlements */,
-				DACF66EE256EEC28007CABC5 /* Preview Content */,
-				DACF671D256EF1C2007CABC5 /* Spotify.swift */,
+				DA7CFCC027F2912000BDF21D /* AppDelegate.swift */,
+				DA7CFCC227F2912000BDF21D /* ContentView.swift */,
+				DA7CFCC427F2912300BDF21D /* Assets.xcassets */,
+				DA7CFCC927F2912300BDF21D /* Main.storyboard */,
+				DA7CFCCC27F2912300BDF21D /* Info.plist */,
+				DA7CFCCD27F2912300BDF21D /* Serenade.entitlements */,
+				DA7CFCC627F2912300BDF21D /* Preview Content */,
 			);
 			path = Serenade;
 			sourceTree = "<group>";
 		};
-		DACF66EE256EEC28007CABC5 /* Preview Content */ = {
+		DA7CFCC627F2912300BDF21D /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				DACF66EF256EEC28007CABC5 /* Preview Assets.xcassets */,
+				DA7CFCC727F2912300BDF21D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		DACF66FD256EEC28007CABC5 /* SerenadeTests */ = {
+		DA7CFCD527F2912300BDF21D /* SerenadeTests */ = {
 			isa = PBXGroup;
 			children = (
-				DACF66FE256EEC28007CABC5 /* SerenadeTests.swift */,
-				DACF6700256EEC28007CABC5 /* Info.plist */,
+				DA7CFCD627F2912300BDF21D /* SerenadeTests.swift */,
+				DA7CFCD827F2912300BDF21D /* Info.plist */,
 			);
 			path = SerenadeTests;
 			sourceTree = "<group>";
 		};
-		DACF6708256EEC28007CABC5 /* SerenadeUITests */ = {
+		DA7CFCE027F2912300BDF21D /* SerenadeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DACF6709256EEC28007CABC5 /* SerenadeUITests.swift */,
-				DACF670B256EEC28007CABC5 /* Info.plist */,
+				DA7CFCE127F2912300BDF21D /* SerenadeUITests.swift */,
+				DA7CFCE327F2912300BDF21D /* Info.plist */,
 			);
 			path = SerenadeUITests;
 			sourceTree = "<group>";
@@ -141,13 +138,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DACF66E4256EEC27007CABC5 /* Serenade */ = {
+		DA7CFCBC27F2912000BDF21D /* Serenade */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DACF670E256EEC28007CABC5 /* Build configuration list for PBXNativeTarget "Serenade" */;
+			buildConfigurationList = DA7CFCE627F2912300BDF21D /* Build configuration list for PBXNativeTarget "Serenade" */;
 			buildPhases = (
-				DACF66E1256EEC27007CABC5 /* Sources */,
-				DACF66E2256EEC27007CABC5 /* Frameworks */,
-				DACF66E3256EEC27007CABC5 /* Resources */,
+				DA7CFCB927F2912000BDF21D /* Sources */,
+				DA7CFCBA27F2912000BDF21D /* Frameworks */,
+				DA7CFCBB27F2912000BDF21D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -155,68 +152,68 @@
 			);
 			name = Serenade;
 			productName = Serenade;
-			productReference = DACF66E5256EEC27007CABC5 /* Serenade.app */;
+			productReference = DA7CFCBD27F2912000BDF21D /* Serenade.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DACF66F9256EEC28007CABC5 /* SerenadeTests */ = {
+		DA7CFCD127F2912300BDF21D /* SerenadeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DACF6711256EEC28007CABC5 /* Build configuration list for PBXNativeTarget "SerenadeTests" */;
+			buildConfigurationList = DA7CFCE927F2912300BDF21D /* Build configuration list for PBXNativeTarget "SerenadeTests" */;
 			buildPhases = (
-				DACF66F6256EEC28007CABC5 /* Sources */,
-				DACF66F7256EEC28007CABC5 /* Frameworks */,
-				DACF66F8256EEC28007CABC5 /* Resources */,
+				DA7CFCCE27F2912300BDF21D /* Sources */,
+				DA7CFCCF27F2912300BDF21D /* Frameworks */,
+				DA7CFCD027F2912300BDF21D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DACF66FC256EEC28007CABC5 /* PBXTargetDependency */,
+				DA7CFCD427F2912300BDF21D /* PBXTargetDependency */,
 			);
 			name = SerenadeTests;
 			productName = SerenadeTests;
-			productReference = DACF66FA256EEC28007CABC5 /* SerenadeTests.xctest */;
+			productReference = DA7CFCD227F2912300BDF21D /* SerenadeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DACF6704256EEC28007CABC5 /* SerenadeUITests */ = {
+		DA7CFCDC27F2912300BDF21D /* SerenadeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DACF6714256EEC28007CABC5 /* Build configuration list for PBXNativeTarget "SerenadeUITests" */;
+			buildConfigurationList = DA7CFCEC27F2912300BDF21D /* Build configuration list for PBXNativeTarget "SerenadeUITests" */;
 			buildPhases = (
-				DACF6701256EEC28007CABC5 /* Sources */,
-				DACF6702256EEC28007CABC5 /* Frameworks */,
-				DACF6703256EEC28007CABC5 /* Resources */,
+				DA7CFCD927F2912300BDF21D /* Sources */,
+				DA7CFCDA27F2912300BDF21D /* Frameworks */,
+				DA7CFCDB27F2912300BDF21D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DACF6707256EEC28007CABC5 /* PBXTargetDependency */,
+				DA7CFCDF27F2912300BDF21D /* PBXTargetDependency */,
 			);
 			name = SerenadeUITests;
 			productName = SerenadeUITests;
-			productReference = DACF6705256EEC28007CABC5 /* SerenadeUITests.xctest */;
+			productReference = DA7CFCDD27F2912300BDF21D /* SerenadeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DACF66DD256EEC27007CABC5 /* Project object */ = {
+		DA7CFCB527F2912000BDF21D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 1200;
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					DACF66E4256EEC27007CABC5 = {
-						CreatedOnToolsVersion = 12.0.1;
+					DA7CFCBC27F2912000BDF21D = {
+						CreatedOnToolsVersion = 12.5;
 					};
-					DACF66F9256EEC28007CABC5 = {
-						CreatedOnToolsVersion = 12.0.1;
-						TestTargetID = DACF66E4256EEC27007CABC5;
+					DA7CFCD127F2912300BDF21D = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = DA7CFCBC27F2912000BDF21D;
 					};
-					DACF6704256EEC28007CABC5 = {
-						CreatedOnToolsVersion = 12.0.1;
-						TestTargetID = DACF66E4256EEC27007CABC5;
+					DA7CFCDC27F2912300BDF21D = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = DA7CFCBC27F2912000BDF21D;
 					};
 				};
 			};
-			buildConfigurationList = DACF66E0256EEC27007CABC5 /* Build configuration list for PBXProject "Serenade" */;
+			buildConfigurationList = DA7CFCB827F2912000BDF21D /* Build configuration list for PBXProject "Serenade" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -224,37 +221,37 @@
 				en,
 				Base,
 			);
-			mainGroup = DACF66DC256EEC27007CABC5;
-			productRefGroup = DACF66E6256EEC27007CABC5 /* Products */;
+			mainGroup = DA7CFCB427F2912000BDF21D;
+			productRefGroup = DA7CFCBE27F2912000BDF21D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DACF66E4256EEC27007CABC5 /* Serenade */,
-				DACF66F9256EEC28007CABC5 /* SerenadeTests */,
-				DACF6704256EEC28007CABC5 /* SerenadeUITests */,
+				DA7CFCBC27F2912000BDF21D /* Serenade */,
+				DA7CFCD127F2912300BDF21D /* SerenadeTests */,
+				DA7CFCDC27F2912300BDF21D /* SerenadeUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DACF66E3256EEC27007CABC5 /* Resources */ = {
+		DA7CFCBB27F2912000BDF21D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DACF66F3256EEC28007CABC5 /* Main.storyboard in Resources */,
-				DACF66F0256EEC28007CABC5 /* Preview Assets.xcassets in Resources */,
-				DACF66ED256EEC28007CABC5 /* Assets.xcassets in Resources */,
+				DA7CFCCB27F2912300BDF21D /* Main.storyboard in Resources */,
+				DA7CFCC827F2912300BDF21D /* Preview Assets.xcassets in Resources */,
+				DA7CFCC527F2912300BDF21D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DACF66F8256EEC28007CABC5 /* Resources */ = {
+		DA7CFCD027F2912300BDF21D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DACF6703256EEC28007CABC5 /* Resources */ = {
+		DA7CFCDB27F2912300BDF21D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -264,52 +261,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DACF66E1256EEC27007CABC5 /* Sources */ = {
+		DA7CFCB927F2912000BDF21D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DACF671E256EF1C2007CABC5 /* Spotify.swift in Sources */,
-				DACF66EB256EEC27007CABC5 /* ContentView.swift in Sources */,
-				DACF66E9256EEC27007CABC5 /* AppDelegate.swift in Sources */,
+				DA7CFCC327F2912000BDF21D /* ContentView.swift in Sources */,
+				DA7CFCC127F2912000BDF21D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DACF66F6256EEC28007CABC5 /* Sources */ = {
+		DA7CFCCE27F2912300BDF21D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DACF66FF256EEC28007CABC5 /* SerenadeTests.swift in Sources */,
+				DA7CFCD727F2912300BDF21D /* SerenadeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DACF6701256EEC28007CABC5 /* Sources */ = {
+		DA7CFCD927F2912300BDF21D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DACF670A256EEC28007CABC5 /* SerenadeUITests.swift in Sources */,
+				DA7CFCE227F2912300BDF21D /* SerenadeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DACF66FC256EEC28007CABC5 /* PBXTargetDependency */ = {
+		DA7CFCD427F2912300BDF21D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DACF66E4256EEC27007CABC5 /* Serenade */;
-			targetProxy = DACF66FB256EEC28007CABC5 /* PBXContainerItemProxy */;
+			target = DA7CFCBC27F2912000BDF21D /* Serenade */;
+			targetProxy = DA7CFCD327F2912300BDF21D /* PBXContainerItemProxy */;
 		};
-		DACF6707256EEC28007CABC5 /* PBXTargetDependency */ = {
+		DA7CFCDF27F2912300BDF21D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DACF66E4256EEC27007CABC5 /* Serenade */;
-			targetProxy = DACF6706256EEC28007CABC5 /* PBXContainerItemProxy */;
+			target = DA7CFCBC27F2912000BDF21D /* Serenade */;
+			targetProxy = DA7CFCDE27F2912300BDF21D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DACF66F1256EEC28007CABC5 /* Main.storyboard */ = {
+		DA7CFCC927F2912300BDF21D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DACF66F2256EEC28007CABC5 /* Base */,
+				DA7CFCCA27F2912300BDF21D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -317,7 +313,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DACF670C256EEC28007CABC5 /* Debug */ = {
+		DA7CFCE427F2912300BDF21D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -368,7 +364,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -378,7 +374,7 @@
 			};
 			name = Debug;
 		};
-		DACF670D256EEC28007CABC5 /* Release */ = {
+		DA7CFCE527F2912300BDF21D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -423,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -432,7 +428,7 @@
 			};
 			name = Release;
 		};
-		DACF670F256EEC28007CABC5 /* Debug */ = {
+		DA7CFCE727F2912300BDF21D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -456,7 +452,7 @@
 			};
 			name = Debug;
 		};
-		DACF6710256EEC28007CABC5 /* Release */ = {
+		DA7CFCE827F2912300BDF21D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -480,7 +476,7 @@
 			};
 			name = Release;
 		};
-		DACF6712256EEC28007CABC5 /* Debug */ = {
+		DA7CFCEA27F2912300BDF21D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -502,7 +498,7 @@
 			};
 			name = Debug;
 		};
-		DACF6713256EEC28007CABC5 /* Release */ = {
+		DA7CFCEB27F2912300BDF21D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -524,7 +520,7 @@
 			};
 			name = Release;
 		};
-		DACF6715256EEC28007CABC5 /* Debug */ = {
+		DA7CFCED27F2912300BDF21D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -544,7 +540,7 @@
 			};
 			name = Debug;
 		};
-		DACF6716256EEC28007CABC5 /* Release */ = {
+		DA7CFCEE27F2912300BDF21D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -567,43 +563,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DACF66E0256EEC27007CABC5 /* Build configuration list for PBXProject "Serenade" */ = {
+		DA7CFCB827F2912000BDF21D /* Build configuration list for PBXProject "Serenade" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DACF670C256EEC28007CABC5 /* Debug */,
-				DACF670D256EEC28007CABC5 /* Release */,
+				DA7CFCE427F2912300BDF21D /* Debug */,
+				DA7CFCE527F2912300BDF21D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DACF670E256EEC28007CABC5 /* Build configuration list for PBXNativeTarget "Serenade" */ = {
+		DA7CFCE627F2912300BDF21D /* Build configuration list for PBXNativeTarget "Serenade" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DACF670F256EEC28007CABC5 /* Debug */,
-				DACF6710256EEC28007CABC5 /* Release */,
+				DA7CFCE727F2912300BDF21D /* Debug */,
+				DA7CFCE827F2912300BDF21D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DACF6711256EEC28007CABC5 /* Build configuration list for PBXNativeTarget "SerenadeTests" */ = {
+		DA7CFCE927F2912300BDF21D /* Build configuration list for PBXNativeTarget "SerenadeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DACF6712256EEC28007CABC5 /* Debug */,
-				DACF6713256EEC28007CABC5 /* Release */,
+				DA7CFCEA27F2912300BDF21D /* Debug */,
+				DA7CFCEB27F2912300BDF21D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DACF6714256EEC28007CABC5 /* Build configuration list for PBXNativeTarget "SerenadeUITests" */ = {
+		DA7CFCEC27F2912300BDF21D /* Build configuration list for PBXNativeTarget "SerenadeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DACF6715256EEC28007CABC5 /* Debug */,
-				DACF6716256EEC28007CABC5 /* Release */,
+				DA7CFCED27F2912300BDF21D /* Debug */,
+				DA7CFCEE27F2912300BDF21D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DACF66DD256EEC27007CABC5 /* Project object */;
+	rootObject = DA7CFCB527F2912000BDF21D /* Project object */;
 }
