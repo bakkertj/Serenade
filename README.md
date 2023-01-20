@@ -84,7 +84,3 @@ if the response not return refresh_token, back to step 2 and retry.
 - **SPOTIFY_CLIENT_ID:** The Client ID you got from Spotify Developer Dashboard.
 - **SPOTIFY_CLIENT_SECRET:** The Client Secret you got from Spotify Developer Dashboard.
 - **SPOTIFY_REFRESH_TOKEN:** The Refresh Token you got from Spotify API.
-
-## 💸 Donations
-
-Feel free to use the GitHub Sponsor button to donate towards my work if you think this project is helpful. 🤗
