@@ -5,10 +5,7 @@ const { Octokit } = require('@octokit/rest')
 const { getTopTracks } = require('./spotify')
 const { getCurrentlyPlaying } = require('./spotify')
 
-//const { GH_TOKEN: github_token, GIST_ID: gist_id } = process.env
-
-const github_token = 
-const gist_id = 
+const { GH_TOKEN: github_token, GIST_ID: gist_id } = process.env
   
 const octo = new Octokit({
   auth: `token ${github_token}`,
