@@ -3,9 +3,7 @@ require('dotenv').config()
 const { stringify } = require('querystring')
 const fetch = require('node-fetch')
 
-const client_id = 'ad2d2382fff449edac72a6f69e16d983'
-const client_secret = '34a02a325b6b4971bcbbc1b688f15a12'
-const refresh_token = 'AQBOgN7JUH9h8R9sIFljeFX3uEMEmRt4AXZ0mNFLabOmWUm-5OgNISpK1VWIDWZXVWNN7XUQtGj4W4w_ePyCtyjxgsL1IrSm09HaF0Jufx4ed_GvuKz3Uq1vpi_xuMhN3Z0'
+
 
 const basic = Buffer.from(`${client_id}:${client_secret}`).toString('base64')
 
