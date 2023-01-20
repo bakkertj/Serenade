@@ -7,9 +7,9 @@ const { getCurrentlyPlaying } = require('./spotify')
 
 //const { GH_TOKEN: github_token, GIST_ID: gist_id } = process.env
 
-const github_token = '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'
-const gist_id = 'fa47806cb7496331b15623ac3a67c679'
-
+const github_token = 
+const gist_id = 
+  
 const octo = new Octokit({
   auth: `token ${github_token}`,
 })
